@@ -1,0 +1,71 @@
+/* TAG BASED SELECTOR
+h1{
+    background-color:yellow;
+}
+h2{
+    background-color:chartreuse;
+}   
+ul{
+    background-color:cyan;
+}
+*/
+
+/* ID BASED SELECTOR */
+/* #first{
+    background-color:blue;
+}
+#second{
+    background-color:pink;
+} */
+
+
+/* CLASS BASED SELECTOR */
+/* .third{
+    background-color:green;
+}
+.fourth{
+    background-color:blueviolet;
+} */
+
+
+/* group based selector */
+/* h1,.fourth,#first{
+    background-color:aqua;
+} */
+
+
+/* h1{
+    background-color:rgba(212, 70, 165, 0.959);
+}
+h2{
+    background-color:hsla(120, 86%, 66%, 0.877);
+} */
+
+h1{
+    font-size:80px;
+}
+ul{
+    font-size:20px;
+}
+/* li{
+    font-size:2em;
+} */
+html{
+    font-size:40px;
+}
+/* h2{
+    font-size:3rem;
+} */
+h2{
+    /* font-size:2vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:900;
+    font-style: italic; */
+    font-family: "Playwrite CU Guides", cursive;
+    font-weight: 900;
+    font-style: normal;
+}
+/* li{
+    font-size:5vh;
+    font-size:50%;
+}*/
