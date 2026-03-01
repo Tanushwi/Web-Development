@@ -62,33 +62,33 @@
 // Balance negative nahi hona chahiye
 // Balance directly accessible nahi hona chahiye
 
-function createAccount(bank){
-    let x=bank;
-    return obj={
-        deposit:function(amt){
-            x+=amt;
-            console.log("Deposit done of rupees ",amt);
-        },
-        withdraw:function(amt){
-            if(x<amt)
-            {
-                console.log("Not enough cash.....");
-                return;
-            }
-            x=x-amt;
-            console.log("Withdrawal done of rupees ",amt);
-        },
-        getBalance:function(){
-            console.log("Bank balance:",x);
-        }
-    }
-}
-let account=createAccount(10000);
-account.getBalance();
-account.deposit(1000);
-account.getBalance();
-account.withdraw(5000);
-account.getBalance();
+// function createAccount(bank){
+//     let x=bank;
+//     return obj={
+//         deposit:function(amt){
+//             x+=amt;
+//             console.log("Deposit done of rupees ",amt);
+//         },
+//         withdraw:function(amt){
+//             if(x<amt)
+//             {
+//                 console.log("Not enough cash.....");
+//                 return;
+//             }
+//             x=x-amt;
+//             console.log("Withdrawal done of rupees ",amt);
+//         },
+//         getBalance:function(){
+//             console.log("Bank balance:",x);
+//         }
+//     }
+// }
+// let account=createAccount(10000);
+// account.getBalance();
+// account.deposit(1000);
+// account.getBalance();
+// account.withdraw(5000);
+// account.getBalance();
 
 
 
